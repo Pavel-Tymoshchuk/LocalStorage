@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="*" method="GET" class="form" id="form">
+            <fieldset class="form_wrapper">
+                <legend>Форма регистрации</legend>
+                <p class="form_input"> 
+                    <label for="name">Name</label>
+                    <input type="text" class="form_input__item" id="name">
+                </p>
+                <p class="form_input"> 
+                    <label for="name">Surname</label>
+                    <input type="text" class="form_input__item" id="surname">
+                </p>
+                <p class="form_input">
+                    <label for="email">Email</label>
+                    <input type="email" class="form_input__item" id="email">
+                </p>
+                <p class="form_input">
+                    <label for="password">Passwrod</label>
+                    <input type="password" class="form_input__item" id="password">
+                </p>
+                <div class="button_wrapper">
+                    <p><button class="form_button" id="save">Save</button></p>
+                    <p><button class="form_button" id="show">Show</button></p>
+                    <p><button class="form_button" id="clear">Clear</button></p>
+                </div>
+        </fieldset>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
